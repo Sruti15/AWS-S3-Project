@@ -1,8 +1,7 @@
 # AWS-S3-Project
 
 Creating an Amazon S3 bucket and loading the sample files
-**1) Step 1 :
-**
+1) Step 1 :
 - Login to your AWS account
  - Goto Services and select storage ->S3
    or Under services search 
@@ -10,8 +9,7 @@ Creating an Amazon S3 bucket and loading the sample files
 ![Screenshot 2024-09-22 at 5 18 46 PM](https://github.com/user-attachments/assets/c55031aa-a3a8-4bd4-a29a-12621c23e57f)
 
 
-**2) Step 2 :
-**
+2) Step 2 :
 To create a bucket :
 - Click on create bucket
 - Give unique name to the bucket (names must be unique across all regions in aws)
@@ -25,7 +23,10 @@ To create a bucket :
 
 ALl the folders will help us to create and maintain easily during ETL steps.
 
-**3) Step 3:
-**
+3) Step 3:
 Upload all the downloaded data files into the respective folders.
 
+
+With conclusion of the above steps, we learnt to load data into s3 buckets. S3 buckets can be used to store raw files so that other analytical services can consume. Data here isn't compressed.
+
+In the next section, we will use AWS Glue to crawl, catalog, transform and optimize the data for analytical services.
